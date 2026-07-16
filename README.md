@@ -335,7 +335,6 @@ The app runs at **http://localhost:5173**
   ]
 }
 
-
 ### Important Notes
 
 - **MongoDB Atlas**: Keep set to "Allow Access from Anywhere" so both local and Fly.io can connect
@@ -344,7 +343,6 @@ The app runs at **http://localhost:5173**
 - **CORS**: The backend handles CORS based on CLIENT_URL environment variable
 - **Cookies**: JWT is stored in httpOnly cookies for security
 - **Production**: NODE_ENV must be set to `production` on the backend
-
 
 
 ## Common Issues & Solutions
@@ -368,40 +366,27 @@ Something else is using port 5000. Kill that process or use a different port.
 ## Development
 
 ### Run backend locally:
-```bash
+bash
 cd server
 npm run dev
-```
 
 ### Run frontend locally:
-```bash
+bash
 cd client
 npm run dev
-```
+
 
 ### Run both at once (2 terminals):
-```bash
+bash
 # Terminal 1
 cd server && npm run dev
 
 # Terminal 2
 cd client && npm run dev
-```
 
----
 
 ## License
 
-MIT License — free to use for personal and commercial projects.
-```
+MIT License — free to use for personal and educational purpose.
 
-
-
-Now push it to GitHub:
-
-bash
-cd C:\Users\afaq8\OneDrive\Desktop\portfolio
-git add README.md
-git commit -m "add comprehensive README"
-git push
 
