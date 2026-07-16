@@ -314,7 +314,7 @@ The app runs at **http://localhost:5173**
 4. Select your repo → set Root Directory to `server`
 5. Set environment variables (PORT, MONGO_URI, JWT_SECRET, JWT_EXPIRE, NODE_ENV, CLIENT_URL)
 6. Deploy and copy the URL (like `https://portfolio-api.fly.dev`)
-
+```
 ### Frontend — Vercel (Free)
 
 1. Go to https://vercel.com
@@ -334,7 +334,7 @@ json
     { "source": "/((?!api|uploads|assets|p).*)", "destination": "/index.html" }
   ]
 }
-
+```
 ### Important Notes
 
 - **MongoDB Atlas**: Keep set to "Allow Access from Anywhere" so both local and Fly.io can connect
@@ -375,7 +375,7 @@ bash
 cd client
 npm run dev
 
-
+```
 ### Run both at once (2 terminals):
 bash
 # Terminal 1
@@ -383,7 +383,7 @@ cd server && npm run dev
 
 # Terminal 2
 cd client && npm run dev
-
+```
 
 ## License
 
