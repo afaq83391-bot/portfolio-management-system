@@ -325,7 +325,7 @@ The app runs at **http://localhost:5173**
 6. Deploy and copy the URL (like `https://portfolio-xxxx.vercel.app`)
 
 ### Vercel `vercel.json`:
-```json
+json
 {
   "rewrites": [
     { "source": "/api/(.*)", "destination": "https://portfolio-api.fly.dev/api/$1" },
